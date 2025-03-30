@@ -11,7 +11,7 @@ export const DATA = {
     "Full-Stack Developer and AI Enthusiast passionate about building scalable solutions and leveraging emerging technologies to drive innovation.",
   summary:
     "Currently pursuing a degree in Software Engineering, a Full-Stack Developer specializing in AI-powered solutions and scalable web applications. With experience at top tech firms, expertise in AI-driven projects, and certifications in cloud computing and machine learning, committed to leveraging technology to enhance accessibility and efficiency.",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "/me.png",
   skills: [
     "Java",
     "React",
