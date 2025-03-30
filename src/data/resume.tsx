@@ -303,7 +303,7 @@ export const DATA = {
         {
           type: "Source",
           href: "https://github.com/SAIKRISHNA2005/caption-generator",
-          icon: "<Icons.github className='size-3' />"
+          icon: <Icons.github className='size-3' />
         }
       ],
       image: "/caption-generator.png"
@@ -318,7 +318,7 @@ export const DATA = {
         {
           type: "Source",
           href: "https://github.com/SAIKRISHNA2005/health-care",
-          icon: "<Icons.github className='size-3' />"
+          icon: <Icons.github className='size-3' />
         }
       ],
       image: "/healthcare.png"
@@ -333,7 +333,7 @@ export const DATA = {
         {
           type: "Source",
           href: "https://github.com/SAIKRISHNA2005/banking",
-          icon: "<Icons.github className='size-3' />"
+          icon: <Icons.github className='size-3' />
         }
       ],
       image: "/banking.png"
@@ -348,7 +348,7 @@ export const DATA = {
         {
           type: "Source",
           href: "https://github.com/SAIKRISHNA2005/ride-sharing",
-          icon: "<Icons.github className='size-3' />"
+          icon: <Icons.github className='size-3' />
         }
       ],
       image: "/ride-sharing.png"
