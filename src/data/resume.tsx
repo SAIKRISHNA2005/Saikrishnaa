@@ -84,11 +84,23 @@ export const DATA = {
 
   work: [
     {
+      company: "NexEV Solutions",
+      href: "",
+      badges: [],
+      location: "Bangalore",
+      title: "Full Stack Developer Intern",
+      logoUrl: "/nexev.jpeg",
+      start: "April 2025",
+      end: "Present",
+      description:
+        "Working as a Full Stack Developer intern under the guidance of Mr. Vimal Raj (Project Manager - Software Development). Collaborating with the team on various software development projects, gaining hands-on experience in building scalable solutions. Contributing to both frontend and backend development while adhering to industry best practices and maintaining confidentiality through NDA compliance.",
+    },
+    {
       company: "StudentSpace",
       href: "",
       badges: [],
       location: "Hybrid",
-      title: "Full Stack Developer",
+      title: "Full Stack Developer Intern",
       logoUrl: "/studentspace.png",
       start: "October 2024",
       end: "March 2025",
@@ -142,64 +154,64 @@ export const DATA = {
 
   projects: [
     {
-      title: "CapGen",
-      href: "https://github.com/SAIKRISHNA2005/caption-generator",
+      title: "Food Delivery App",
+      href: "https://github.com/SAIKRISHNA2005/food-delivery-app",
       active: true,
-      description: "An AI-powered tool that generates captions for images using deep learning, ideal for accessibility and automated content creation.",
-      technologies: ["Next.js", "JavaScript", "TailwindCSS", "TensorFlow","Hugging Face Transformers", "OpenAI API"],
+      description: "A comprehensive food delivery platform built with TypeScript, featuring real-time order tracking, restaurant management, and secure payment processing.",
+      technologies: ["TypeScript", "Next.js", "TailwindCSS", "Node.js", "PostgreSQL", "Stripe API"],
       links: [
         {
           type: "Source",
-          href: "https://github.com/SAIKRISHNA2005/caption-generator",
+          href: "https://github.com/SAIKRISHNA2005/food-delivery-app",
           icon: <Icons.github className='size-3' />
         }
       ],
-      image: "/caption-generator.png"
+      image: "/food-delivery.png"
     },
     {
-      title: "CareForYou",
-      href: "https://github.com/SAIKRISHNA2005/health-care",
+      title: "Shop Mart",
+      href: "https://github.com/SAIKRISHNA2005/Shop-mart",
       active: true,
-      description: "A healthcare management system built on WordPress, enabling hospitals and clinics to manage patient records, schedule appointments, and facilitate secure doctor-patient communication.",
-      technologies: [ "WordPress", "PHP", "WooCommerce", "MySQL", "Elementor", "REST API"],
+      description: "An e-commerce platform with advanced product management, user authentication, and secure payment integration.",
+      technologies: ["TypeScript", "Next.js", "TailwindCSS", "Node.js", "MongoDB", "Stripe"],
       links: [
         {
           type: "Source",
-          href: "https://github.com/SAIKRISHNA2005/health-care",
+          href: "https://github.com/SAIKRISHNA2005/Shop-mart",
           icon: <Icons.github className='size-3' />
         }
       ],
-      image: "/healthcare.png"
+      image: "/shop-mart.png"
     },
     {
-      title: "Banking Application",
-      href: "https://github.com/SAIKRISHNA2005/banking",
+      title: "Skin Care App",
+      href: "https://github.com/SAIKRISHNA2005/skin-care-app",
       active: true,
-      description: "A secure and scalable platform built using Shopify for managing online banking services, including secure fund transfers, real-time transaction tracking, and secured account management.",
-      technologies: ["Shopify", "GraphQL", "Node.js", "PostgreSQL", "Stripe API"],
+      description: "A personalized skincare recommendation platform using AI to analyze skin conditions and suggest suitable products.",
+      technologies: ["TypeScript", "React Native", "TensorFlow.js", "Node.js", "MongoDB"],
       links: [
         {
           type: "Source",
-          href: "https://github.com/SAIKRISHNA2005/banking",
+          href: "https://github.com/SAIKRISHNA2005/skin-care-app",
           icon: <Icons.github className='size-3' />
         }
       ],
-      image: "/banking.png"
+      image: "/skin-care.png"
     },
     {
-      title: "Ride Sharing Application",
-      href: "https://github.com/SAIKRISHNA2005/ride-sharing",
+      title: "SignLingo",
+      href: "https://github.com/SAIKRISHNA2005/SignLingo",
       active: true,
-      description: "A ride-hailing platform for booking rides, real-time driver tracking, secure payments, and dynamic fare calculation.",
-      technologies: ["React Native", "PostgreSQL", "Expo", "Stripe", "Firebase", "Google Maps API"],
+      description: "An innovative sign language learning application that uses computer vision to help users learn and practice sign language in real-time.",
+      technologies: ["TypeScript", "React", "TensorFlow.js", "Python", "OpenCV"],
       links: [
         {
           type: "Source",
-          href: "https://github.com/SAIKRISHNA2005/ride-sharing",
+          href: "https://github.com/SAIKRISHNA2005/SignLingo",
           icon: <Icons.github className='size-3' />
         }
       ],
-      image: "/ride-sharing.png"
+      image: "/signlingo.png"
     }
   ],
 
